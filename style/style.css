@@ -1,0 +1,172 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.42857143;
+    font-weight: 400;
+    background-color: #8A8786;
+}
+a {
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+header{
+    position: fixed;
+    padding: 0;
+    margin: 0 0 10px;
+    color: white;
+    background-color: #00c0ff;
+    width: 100%;
+    z-index: 9999;
+}
+header h4{
+    margin: 10px 0;
+    /*padding: 15px 0;*/
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+section{
+    background-color: white;
+    margin: auto;
+    width: 450px;
+    padding: 16px;
+}
+section .img{
+    margin-top: 38px;
+}
+section .main{
+    padding: 16px;
+}
+p{
+    margin: 0 0 10px;
+}
+hr {
+    margin-top: 20px;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+label{
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #00c0ff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px !important;
+    margin-top: 1px !important;
+    padding: 0;
+    
+}
+input{
+    padding: 15px;
+    margin: 5px 0 25px 0 ;
+    width: 100%;
+    border: none;
+    background: #f1f1f1;
+}
+input::placeholder{
+    color: #999;
+    opacity: 1;
+    font-size: 16px;
+}
+input[type = radio]{
+    width: auto;
+
+}
+.registerbtn{
+    background-color: blue;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+section .alert{
+    padding: 16px;
+    background-color: #f1f1f1;
+}
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+.checked {
+    color: orange;
+}
+#div1 {
+    font-size: 48px;
+}
+.h2, h2 {
+    font-size: 30px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.firsttechinfoar {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+@media(max-width:450px){
+    section{
+        width: 100%;
+    }
+
+}
